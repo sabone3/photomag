@@ -36,7 +36,7 @@
                 cursor: pointer;
                 background-color: transparent;
             }
-
+            
             .header-button {
                 color: #000;
                 margin-left: 15px;
@@ -49,9 +49,9 @@
                 background-color: rgb(255, 255, 255);
                 border: 0;
 
-                a:hover {
-                    background-color: rgb(0, 0, 0);
-                    color: rgb(255, 255, 255);
+                .header-button:hover {
+                    color: #434342;
+                    background-color: gold;
                 }
             }
         }

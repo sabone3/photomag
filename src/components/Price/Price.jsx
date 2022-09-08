@@ -7,10 +7,11 @@ const Price = () => (
         <div className={styles.postwrap}>
 
             <div className={styles.postitem}>
-                <h3 class="card__heading">
+            <div className={styles.postitemwrap}>
+                <h3 className={styles.card_heading}>
                     Фото и видео
                 </h3>
-                <div class="card__body">
+                <div className={styles.card_body}>
                     <ul>
                         <li>Документальное фото</li>
                         <li>Печать фотографий</li>
@@ -21,16 +22,20 @@ const Price = () => (
                         <li>Изготовление фотокниг</li>
                     </ul>
                 </div>
-                <a className={styles.button} target="_blank" href="https://drive.google.com/file/d/1d_N8G4YWnXCNcR0YLXVJwRaiDk8KRGOu/view?usp=sharing">
+                <div className={styles.postinfo}>
+                <a className={styles.button} target="_blank" rel="noreferrer" href="https://drive.google.com/file/d/1d_N8G4YWnXCNcR0YLXVJwRaiDk8KRGOu/view?usp=sharing">
                     Посмотреть прайс
                 </a>
+                </div>
+                </div>
             </div>
 
             <div className={styles.postitem}>
-                <h3 class="card__heading">
+            <div className={styles.postitemwrap}>
+                <h3 className={styles.card_heading}>
                     Полиграфия
                 </h3>
-                <div class="card__body">
+                <div className={styles.card_body}>
                     <ul>
                         <li>Услуги по верстке и дизайну</li>
                         <li>Цветная лазерная/струйная печать</li>
@@ -42,16 +47,20 @@ const Price = () => (
                         <li>Изготовление календарей</li>
                     </ul>
                 </div>
-                <a className={styles.button} target="_blank" href="https://drive.google.com/file/d/1XmX1jiQuF1Q4H9jxW3EIKfgFl31Ef-2E/view?usp=sharing">
+                <div className={styles.postinfo}>
+                <a className={styles.button} target="_blank" rel="noreferrer" href="https://drive.google.com/file/d/1XmX1jiQuF1Q4H9jxW3EIKfgFl31Ef-2E/view?usp=sharing">
                     Посмотреть прайс
                 </a>
+                </div>
+                </div>
             </div>
 
             <div className={styles.postitem}>
-                <h3 class="card__heading">
+            <div className={styles.postitemwrap}>
+                <h3 className={styles.card_heading}>
                     Фотосувениры
                 </h3>
-                <div class="card__body">
+                <div className={styles.card_body}>
                     <ul>
                         <li>Печать на одежде</li>
                         <li>Печать на кружках</li>
@@ -64,9 +73,12 @@ const Price = () => (
                         <li>Изготовление фотомагнитов</li>
                     </ul>
                 </div>
-                <a className={styles.button} target="_blank" href="https://drive.google.com/file/d/18Au-ua6b6Re9VXPEuap0WRdafGMKJ7p3/view?usp=sharing">
+                <div className={styles.postinfo}>
+                <a className={styles.button} target="_blank" rel="noreferrer" href="https://drive.google.com/file/d/18Au-ua6b6Re9VXPEuap0WRdafGMKJ7p3/view?usp=sharing">
                     Посмотреть прайс
                 </a>
+                </div>
+                </div>
             </div>
 
         </div>
