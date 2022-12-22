@@ -1,7 +1,6 @@
 import DG from '2gis-maps';
 import { useEffect } from 'react';
 import React from 'react';
-import styles from './Map.module.scss'
 
 export const Map = () => {
     useEffect(() => {
@@ -16,9 +15,9 @@ DG.marker([54.9966508, 73.3790184]).addTo(map)
     }, []);
 
     return (
-        <div className={styles.karta}>
-        <div className={styles.title}><h1>Мы находимся здесь</h1></div>
-        <div id="map-container" style={{ width: '600', height: '500px' }}></div>
+        <div className='map-component-karta'>
+        <div className='map-component-title'><h1>Мы находимся здесь</h1></div>
+        <div id="map-container" style={{ width: '300', height: '500px' }}></div>
         </div>
     )
 };

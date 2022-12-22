@@ -1,17 +1,16 @@
 import React from 'react'
-import styles from './Price.module.scss'
 
 const Price = () => (
-    <div className={styles.cards}>
-        <div className={styles.title}><h1>Прайс</h1></div>
-        <div className={styles.postwrap}>
+    <div className='price-componen-cards'>
+        <div className='price-componen-title'><h1>Прайс</h1></div>
+        <div className='price-componen-postwrap'>
 
-            <div className={styles.postitem}>
-            <div className={styles.postitemwrap}>
-                <h3 className={styles.card_heading}>
+            <div className='price-componen-postitem'>
+            <div className='price-componen-postitemwrap'>
+                <h3 className='price-componen-card_heading'>
                     Фото и видео
                 </h3>
-                <div className={styles.card_body}>
+                <div className='price-componen-card_body'>
                     <ul>
                         <li>Документальное фото</li>
                         <li>Печать фотографий</li>
@@ -22,20 +21,20 @@ const Price = () => (
                         <li>Изготовление фотокниг</li>
                     </ul>
                 </div>
-                <div className={styles.postinfo}>
-                <a className={styles.button} target="_blank" rel="noreferrer" href="https://drive.google.com/file/d/1d_N8G4YWnXCNcR0YLXVJwRaiDk8KRGOu/view?usp=sharing">
+                <div className='price-componen-postinfo'>
+                <a className='price-componen-button' target="_blank" rel="noreferrer" href="https://drive.google.com/file/d/1d_N8G4YWnXCNcR0YLXVJwRaiDk8KRGOu/view?usp=sharing">
                     Посмотреть прайс
                 </a>
                 </div>
                 </div>
             </div>
 
-            <div className={styles.postitem}>
-            <div className={styles.postitemwrap}>
-                <h3 className={styles.card_heading}>
+            <div className='price-componen-postitem'>
+            <div className='price-componen-postitemwrap'>
+                <h3 className='price-componen-card_heading'>
                     Полиграфия
                 </h3>
-                <div className={styles.card_body}>
+                <div className='price-componen-card_body'>
                     <ul>
                         <li>Услуги по верстке и дизайну</li>
                         <li>Цветная лазерная/струйная печать</li>
@@ -47,20 +46,20 @@ const Price = () => (
                         <li>Изготовление календарей</li>
                     </ul>
                 </div>
-                <div className={styles.postinfo}>
-                <a className={styles.button} target="_blank" rel="noreferrer" href="https://drive.google.com/file/d/1XmX1jiQuF1Q4H9jxW3EIKfgFl31Ef-2E/view?usp=sharing">
+                <div className='price-componen-postinfo'>
+                <a className='price-componen-button' target="_blank" rel="noreferrer" href="https://drive.google.com/file/d/1XmX1jiQuF1Q4H9jxW3EIKfgFl31Ef-2E/view?usp=sharing">
                     Посмотреть прайс
                 </a>
                 </div>
                 </div>
             </div>
 
-            <div className={styles.postitem}>
-            <div className={styles.postitemwrap}>
-                <h3 className={styles.card_heading}>
+            <div className='price-componen-postitem'>
+            <div className='price-componen-postitemwrap'>
+                <h3 className='price-componen-card_heading'>
                     Фотосувениры
                 </h3>
-                <div className={styles.card_body}>
+                <div className='price-componen-card_body'>
                     <ul>
                         <li>Печать на одежде</li>
                         <li>Печать на кружках</li>
@@ -73,8 +72,8 @@ const Price = () => (
                         <li>Изготовление фотомагнитов</li>
                     </ul>
                 </div>
-                <div className={styles.postinfo}>
-                <a className={styles.button} target="_blank" rel="noreferrer" href="https://drive.google.com/file/d/18Au-ua6b6Re9VXPEuap0WRdafGMKJ7p3/view?usp=sharing">
+                <div className='price-componen-postinfo'>
+                <a className='price-componen-button' target="_blank" rel="noreferrer" href="https://drive.google.com/file/d/18Au-ua6b6Re9VXPEuap0WRdafGMKJ7p3/view?usp=sharing">
                     Посмотреть прайс
                 </a>
                 </div>

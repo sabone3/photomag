@@ -1,11 +1,10 @@
 import React from "react";
-import styles from './Footer.module.scss'
 
 const Footer = () => {
     return (
-        <footer className={styles.footer}>
+        <footer className='footer-component-footer'>
             <ul>
-                <li>г. Омск, ул. Гусарова, 37</li>
+                <li>г. Омск, ул. Гусарова, 33 к5</li>
                 <li>ПН–СБ: 9.00–18.00; ВС: 10.00–18.00;</li>
                 <li>Email: mphototorg@gmail.com</li>
                 <li>Email: mphoto.z@bk.ru</li>

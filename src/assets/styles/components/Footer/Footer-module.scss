@@ -1,4 +1,4 @@
-.footer {
+.footer-component-footer {
 	grid-area: f;
 	background-color: #434342;
 	font-family: 'Bellota Text', cursive;
@@ -11,14 +11,14 @@
 }
 
 @media (min-width: 768px) {
-	.footer {
+	.footer-component-footer {
 		flex-basis: 50%;
 		flex-shrink: 0;
 	}
 }
 
 @media (min-width: 960px) {
-	.footer {
+	.footer-component-footer {
 		flex-basis: 33.333333333%;
 	}
 }

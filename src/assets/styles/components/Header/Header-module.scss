@@ -1,4 +1,4 @@
-.header {
+.header-component-header {
     grid-area: h;
     -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(15px);
@@ -18,16 +18,16 @@
     font-family: 'Bellota Text', cursive;
     color: #151616;
 
-    .logo {
+    .header-component-logo {
         cursor: pointer;
         background-color: transparent;
     }
 
-    .wrapper {
+    .header-component-wrapper {
         display: flex;
         align-items: center;
 
-        .buttons {
+        .header-component-buttons {
             display: flex;
             align-items: center;
             padding-left: 20px;
@@ -37,7 +37,7 @@
                 background-color: transparent;
             }
             
-            .header-button {
+            .header-component-header-button {
                 color: #000;
                 margin-left: 15px;
                 padding: 10px 8px;
@@ -49,7 +49,7 @@
                 background-color: rgb(255, 255, 255);
                 border: 0;
 
-                .header-button:hover {
+                .header-component-header-button:hover {
                     color: #434342;
                     background-color: gold;
                 }

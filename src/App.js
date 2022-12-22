@@ -1,13 +1,12 @@
 import React from "react";
-import './App.scss';
+import "./assets/styles/app.scss";
 import Header from "./components/Header/Header";
-import Cards from "./components/Cards/Cards"
+import Cards from "./components/Cards/Cards";
 import Price from "./components/Price/Price";
 import Footer from "./components/Footer/Footer";
 import Map from "./components/Map/Map";
 
 function App() {
-
   return (
     <div className="container">
       <Header />
