@@ -1,18 +1,18 @@
-import React from "react"
+// import React from "react";
 
-const menu = [
-    {
-        title: 'Products',
-        link: '/',
-    },
-    {
-        title: 'Pricing',
-        link: '/',
-    },
-    {
-        title: 'Dashboard',
-        link: '/',
-    },
-]
+// const menu = [
+//   {
+//     title: "Products",
+//     link: "/",
+//   },
+//   {
+//     title: "Pricing",
+//     link: "/",
+//   },
+//   {
+//     title: "Dashboard",
+//     link: "/",
+//   },
+// ];
 
-export default menu;
+// export default menu;

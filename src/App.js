@@ -6,7 +6,7 @@ import Price from "./components/Price/Price";
 import Footer from "./components/Footer/Footer";
 import Map from "./components/Map/Map";
 
-function App() {
+const App = () => {
   return (
     <div className="container">
       <Header />
@@ -16,6 +16,6 @@ function App() {
       <Map />
     </div>
   );
-}
+};
 
 export default App;
