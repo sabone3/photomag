@@ -1,21 +1,24 @@
 import React from "react";
-import "./assets/styles/app.scss";
-import Header from "./components/Header/Header";
-import Cards from "./components/Cards/Cards";
-import Price from "./components/Price/Price";
-import Footer from "./components/Footer/Footer";
-import Map from "./components/Map/Map";
-
+import { Route, Routes } from "react-router-dom";
+import Header from "./components/header/Header";
+import Home from "./components/home/Home";
+import Products from "./components/products/Products";
 const App = () => {
+  const NotFoundPage = () => {
+    <div>
+      <p>Нет такой страницы</p>
+    </div>;
+  };
+
   return (
-    <div className="container">
+    <>
       <Header />
-      <Cards />
-      <Price />
-      <Footer />
-      <Map />
-    </div>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/products" element={<Products />} />
+        <Route path="*" element={NotFoundPage()} />
+      </Routes>
+    </>
   );
 };
-
 export default App;
