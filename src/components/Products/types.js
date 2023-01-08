@@ -1,0 +1,3 @@
+export default {
+  SET_SELECTED_PRODUCTS: "SET_SELECTED_PRODUCTS",
+};

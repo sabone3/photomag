@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import logoImage from "../../assets/images/header-images/logo.svg?url";
-
 const Header = () => {
   return (
     <div className="header-component-header">
@@ -19,6 +18,15 @@ const Header = () => {
           <button className="header-component-header-button">Услуги</button>
           <button className="header-component-header-button">Прайс-лист</button>
           <button className="header-component-header-button">Контакты</button>
+          <Link
+            to={{
+              pathname: "/cart",
+            }}
+          >
+            <button className="header-component-header-button">
+              @Корзина@
+            </button>
+          </Link>
         </div>
       </div>
     </div>
