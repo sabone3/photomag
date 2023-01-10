@@ -1,21 +1,31 @@
 import React from "react";
-import "./assets/styles/app.scss";
-import Header from "./components/Header/Header";
-import Cards from "./components/Cards/Cards";
-import Price from "./components/Price/Price";
-import Footer from "./components/Footer/Footer";
-import Map from "./components/Map/Map";
+import { Route, Routes } from "react-router-dom";
+import Header from "./components/header/Header";
+import Home from "./components/home/Home";
+import Products from "./components/products/Products";
+import Cart from "./components/cart/Cart";
+import "./assets/styles/components/cart/App/_vars.scss";
+import "./assets/styles/components/cart/App/_reset.scss";
+import "./assets/styles/components/cart/App/_base.scss";
+import "./assets/styles/components/cart/App/_section-cart.scss";
 
 const App = () => {
+  const NotFoundPage = () => {
+    <div>
+      <p>Нет такой страницы</p>
+    </div>;
+  };
+
   return (
-    <div className="container">
+    <>
       <Header />
-      <Cards />
-      <Price />
-      <Footer />
-      <Map />
-    </div>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/products" element={<Products />} />
+        <Route path="/cart" element={<Cart />} />
+        <Route path="*" element={NotFoundPage()} />
+      </Routes>
+    </>
   );
 };
-
 export default App;
